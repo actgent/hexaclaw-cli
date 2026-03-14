@@ -1,0 +1,33 @@
+{
+  "name": "@hexaclaw/cli",
+  "version": "1.0.0",
+  "description": "HexaClaw CLI — one command to add AI cloud tools to all your coding assistants",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "hexaclaw": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "files": ["dist"],
+  "keywords": ["hexaclaw", "mcp", "claude-code", "cursor", "gemini-cli", "windsurf", "ai-tools", "copilot", "zed", "cline", "openclaw"],
+  "license": "MIT",
+  "author": "HexaClaw <hello@hexaclaw.com> (https://hexaclaw.com)",
+  "homepage": "https://hexaclaw.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actgent/hexaclaw-cli.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
